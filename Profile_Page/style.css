@@ -1,0 +1,243 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    height: 700px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+.navbar {
+    height: 50px;
+    width: 95%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+}
+.navbarprofile {
+    color: white;
+    height: 50px;
+    width: 80px;
+    margin-left: 200px;
+    align-items: center;
+}
+.navbarlinks {
+    height: 50px;
+    width: 300px;
+    color: white;
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarbutton {
+    background-color: teal;
+    align-items: center;
+    margin-left: 120px;
+}
+.navbarbutton button {
+    color:white;
+    background-color:teal;
+    align-items: center;
+    border: none;
+    height: 25px;
+    width: 55px;
+    border-radius: 2px;
+}
+.usercard {
+    height: 300px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.usercard img {
+    height: 70px;
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 50%;
+
+}
+.usertop {
+    height: 90px;
+    width: 400px;
+    background-color:blueviolet;
+}
+.userbottom {
+    margin-left: 75px;
+    margin-top: 45px;
+    font-size: 120%;
+    font-weight: lighter;
+}
+.userbottom h4 {
+    margin-left: 25px;
+}
+.userbottom h6 {
+    margin-left: 100px;
+}
+.userbottom img {
+    height: 15px;
+    width: 15px;
+    margin-top: 0px;
+    margin-left: -30px;
+    border: none;
+}
+.connectionrequests {
+    height: 210px;
+    width: 300px;
+    position: fixed;
+    margin-left: 610px;
+    margin-top: 45px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.topconnectionrequests {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(78, 78, 77);
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.bottomconnectionrequests1 img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+
+.bottomconnectionrequests2 img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 20px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+.bottomconnectionrequests1 h3 {
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 80px; 
+}
+.bottomconnectionrequests2 h3 {
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 120px; 
+}
+.yourconnections {
+    height: 400px;
+    width: 300px;
+    position: fixed;
+    margin-left: 610px;
+    margin-top: 300px;
+    border: 1px solid black;
+}
+.topyourconnections h3 {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.bottomyourconnections1 img {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    margin-top: 75px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.bottomyourconnections1 h4 {
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 75px;
+    font-size: large;
+}
+.bottomyourconnections2 img {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    margin-top: 160px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.bottomyourconnections2 h4 {
+    position: fixed;
+    margin-top: 160px;
+    margin-left: 75px;
+    font-size: large;
+}
+.bottomyourconnections3 img {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    margin-top: 240px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.bottomyourconnections3 h4 {
+    position: fixed;
+    margin-top: 240px;
+    margin-left: 75px;
+    font-size: large;
+}
+.bottomyourconnections4 img {
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.bottomyourconnections4 h4 {
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 75px;
+    font-size: large;
+}
+
+.yourconnections h3 {
+    position: fixed;
+    margin-top: 10px;
+}
+.topyourconnections {
+    height: 55px;
+    width: 300px;
+    background-color: rgb(78, 78, 77);
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+.education {
+    height: 190px;
+    width: 400px;
+    position: fixed;
+    margin-top: 360px;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+.topeducation {
+    height: 50px;
+    width: 400px;
+    background-color: rgb(78, 78, 77);
+    position: fixed;
+    text-align: center;
+    align-items: left;
+    color: white;
+}
+.bottomeducation {
+    color: black;
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 30px;
+
+}
